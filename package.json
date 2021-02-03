@@ -1,0 +1,23 @@
+{
+  "name": "crud",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "./node_modules/mocha/bin/mocha --exit --recursive"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "mongodb": "^3.5.9",
+    "mongoose": "^5.9.25",
+    "express": "~4.16.1",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^8.0.1",
+    "sinon": "^9.0.2",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1"
+  }
+}
